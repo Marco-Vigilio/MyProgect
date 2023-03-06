@@ -1,0 +1,83 @@
+body{
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+/*
+.contenitore{
+    position: relative;
+    width: 1000px;
+    margin: auto;
+    
+    --background-color: black; opacity: 0.5;
+}
+*/
+*{
+    box-sizing: border-box;
+    margin: 2px;
+}
+
+
+.contenitore {
+    border-radius: 10px;
+    /*background-color: black; opacity: 0.5;    perche questo non funziona???????*/
+    background: rgb(0, 0, 0); /* Fallback color*/
+    background: rgba(0, 0, 0, 0.5); /*Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 1000px;
+    margin: auto;
+    padding: 100px;   
+}
+
+.visibile{
+    text-align: center;
+    color: rgb(16,204,13);
+}
+
+#immagine-logo{
+    width: 23%;
+    height: auto;
+    display: inline-block;
+}
+
+
+.menu{
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(16,204,13);
+}
+
+.nome-monopattino{
+    display: inline-block;
+}
+
+.luogo{
+    
+    font-size: small;
+}
+
+.serbatoio-meta{
+    width: 300px;
+    height: 30px;
+    background-color: orange;
+    border-radius: 5px;
+}
+
+.serbatoio-pieno{
+    width: 500px;
+    height: 30px;
+    background-color: rgb(30,195,30);
+    border-radius: 5px;
+}
+
+.serbatoio-scarico{
+    width: 150px;
+    height: 30px;
+    background-color: red;
+    border-radius: 5px;
+}
+
